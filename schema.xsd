@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+          <!-- XML Schema Generated from XML Document on Sat Jul 31 2021 22:38:55 GMT+0300 (Moscow Standard Time) -->
+          <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+       <xs:element name="config">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="file" maxOccurs="unbounded">
+                                   <xs:complexType>
+                                          <xs:attribute name="sourse_path" type="xs:string"></xs:attribute>
+                                          <xs:attribute name="destination_path" type="xs:string"></xs:attribute>
+                                          <xs:attribute name="file_name" type="xs:string"></xs:attribute>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>

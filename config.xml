@@ -1,0 +1,12 @@
+<config>
+    <file
+            sourse_path="/home/inna/Downloads/"
+            destination_path="/home/inna/projects/"
+            file_name="vremena_angl2.png"
+    />
+    <file
+            sourse_path="/home/inna/Downloads/"
+            destination_path="/home/inna/"
+            file_name="Тестовое задание Python.txt"
+    />
+</config>
